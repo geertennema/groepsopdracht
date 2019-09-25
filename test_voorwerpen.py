@@ -6,9 +6,10 @@ from voorwerpen import Voorwerp
 class voorwerpenTest(unittest.TestCase):
 
    def test_name(self):
-       voorwerp = Voorwerp("speler") #omdat het een test is
+       voorwerp = Voorwerp("speler") #omdat het een test is tussen aanhalingstekens
        self.assertEqual(voorwerp.naam, "speler")
 
 
 if __name__ == '__main__':
-    unittest.main()
+    unittest.main()    
+
