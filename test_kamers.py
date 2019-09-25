@@ -9,4 +9,7 @@ class KamerTest(unittest.TestCase):
             close = 0,
             key = 'key'
         )
+
+if __name__ == '__main__':
+    unittest.main()
         
