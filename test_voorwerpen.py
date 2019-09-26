@@ -1,13 +1,13 @@
 import unittest
 
 
-from voorwerpen import Voorwerp
+from voorwerpen import Voorwerp, Key
 
 class voorwerpenTest(unittest.TestCase):
 
    def test_name(self):
-       voorwerp = Voorwerp("speler") #omdat het een test is tussen aanhalingstekens
-       self.assertEqual(voorwerp.naam, "speler")
+       voorwerp = Voorwerp("player") #omdat het een test is tussen aanhalingstekens
+       self.assertEqual(voorwerp.name, "player")
 
 
 if __name__ == '__main__':
