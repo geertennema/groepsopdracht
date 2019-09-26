@@ -1,8 +1,5 @@
 {
-<<<<<<< HEAD
-    "python.pythonPath": "C:\\Users\\kirst\\.virtualenvs\\groepsopdracht-eg9GyRHV\\Scripts\\python.exe"
-=======
-    "python.pythonPath": "C:\\Users\\Julien\\Anaconda3\\python.exe",
+    "python.pythonPath": "C:\\Users\\kirst\\.virtualenvs\\groepsopdracht-J6--DZj6\\Scripts\\python.exe",
     "python.testing.unittestArgs": [
         "-v",
         "-s",
@@ -13,5 +10,4 @@
     "python.testing.pytestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.unittestEnabled": true
->>>>>>> 7425d9d00cd4dbacb8f3de5299e7e4cf2f69dda7
 }
