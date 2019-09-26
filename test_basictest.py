@@ -1,25 +1,17 @@
 import unittest
-from kamerdef import Kamer 
+from kamerdef import Kamer
 
 class TestBasicClass(unittest.TestCase):
 
     def setUp(self):
-        self.testKamer = Kamer.Kamer("keuken")
-        self.testKamer2 = Kamer.Kamer("woonkamer")
-        self.testSleutel = Kamer.Key(1286)
-        self.testDoor = Kamer.Door(1)
-    
-        # self.testKamer = None
+        self.testKamer = Kamer("keuken", "deur1")
 
     def test_kamerBestaat(self):
         self.assertIsNotNone(self.testKamer)
-        self.assertIsInstance(self.testKamer, Kamer.Kamer)
+        self.assertIsInstance(self.testKamer, Kamer)
     
     def test_kamerNaam(self):
-        self.assertEqual(self.testKamer.naam,"keuken")
-
-    def test_Door(self):
-        self.assertEqual(self.testDoor.openDoor, 1)
+        self.assertEqual(self.testKamer.name,"keuken")
 
     # def test_increment(self):
     #     self.func.increment_state()
