@@ -1,5 +1,5 @@
 import unittest
-from Kamers import Kamer 
+from kamerdef import Kamer 
 
 class KamerTest(unittest.TestCase):
 
